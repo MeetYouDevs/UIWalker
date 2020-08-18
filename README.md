@@ -10,7 +10,8 @@
 5. 处理系统弹窗：允许、确定、始终允许、同意、稍等等按钮点击。
 
 ## 2 遍历原理  
-![image](%E9%81%8D%E5%8E%86%E5%8E%9F%E7%90%86.png)  
+<!--![image](%E9%81%8D%E5%8E%86%E5%8E%9F%E7%90%86.png)  -->
+![遍历原理](https://img-blog.csdnimg.cn/20200818112858793.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2NhbHlrb25n,size_16,color_FFFFFF,t_70#pic_center)
 ###### 几个特殊处理点  
 * 在深度遍历过程中，随机选到的控件可能是个返回按键，这时候会导致整个页面没有全部遍历完成返回出去，大家可以自行处理
 * 登录相关控件主要适配了美柚的登录页面，其他app可以自行适配  
